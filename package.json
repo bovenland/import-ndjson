@@ -1,0 +1,16 @@
+{
+  "name": "@bovenland/import-ndjson",
+  "version": "1.0.0",
+  "description": "Imports NDJSON into PostgreSQL database",
+  "main": "import-ndjson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bert Spaan",
+  "license": "ISC",
+  "dependencies": {
+    "highland": "^2.13.5",
+    "pg": "^8.4.1",
+    "yargs": "^16.0.3"
+  }
+}
